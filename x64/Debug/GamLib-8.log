@@ -1,0 +1,72 @@
+﻿  Animation.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  AnimationDelegate.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  Camera.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  dllmain.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  Entity.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  FeedbackBuffer.cpp
+  FrameBuffer.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  Game.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  IndexBuffer.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  KeyFrame.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  KeyFrameDelegate.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  Mechanics.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  ObjectManager.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  PackBuffer.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  PixelBuffer.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  RenderBuffer.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  Renderer.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  Scene.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  Shader.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  Sprite.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  Generating Code...
+  Compiling...
+  stdafx.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  TextureBuffer.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  TextureManager.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  TileMapManager.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  Timer.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  TimerDelegate.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  Track.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  TrackAction.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  TrackDelegate.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  Transformation.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  UniformBuffer.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  UnpackBuffer.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  VertexArray.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  VertexBuffer.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  VertexBufferLayout.cpp
+C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+  Generating Code...
