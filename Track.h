@@ -1,9 +1,11 @@
 #include "stdafx.h"
 
+namespace animation
+{
 	#ifndef TRACK_H
 	#define TRACK_H
 
-	class Track
+	class Track : public Object
 	{
 		private:
 		KeyFrame				PK;
@@ -44,7 +46,7 @@
 			GO_TO_KEY_STOP,
 		};
 
-		__declspec(dllexport) Track(int frames =0, int keys =0, int frameTime = 0, int state = 3, bool constant = false, float value = 0.0f);
+		__declspec(dllexport) Track(int frames = 0, int keys = 0, int frameTime = 0, int state = 3, bool constant = false, float value = 0.0f);
 		__declspec(dllexport) Track(const Track&);
 		__declspec(dllexport) ~Track();
 		__declspec(dllexport) const Track& operator=(const Track&);
@@ -75,3 +77,4 @@
 		__declspec(dllexport) void print() const;
 	};
 	#endif
+}

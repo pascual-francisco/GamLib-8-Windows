@@ -1,9 +1,11 @@
 #include "stdafx.h"
 
+namespace animation
+{
 	#ifndef TRACKACTION_H
 	#define TRACKACTION_H
 
-	class TrackAction
+	class TrackAction: public Object
 	{
 		public:
 		bool active;
@@ -32,7 +34,7 @@
 			GO_TO_KEY_STOP,
 		};
 
-		__declspec(dllexport) TrackAction(bool  alive = false,  int type = 0,  int activeDirection = 0,  int time = 0,  int key = 0);
+		__declspec(dllexport) TrackAction(bool  alive = false, int type = 0, int activeDirection = 0, int time = 0, int key = 0);
 		__declspec(dllexport) TrackAction(const TrackAction&);
 		__declspec(dllexport) ~TrackAction();
 		__declspec(dllexport) const TrackAction& operator=(const TrackAction&);
@@ -40,3 +42,4 @@
 		__declspec(dllexport) bool operator<(const TrackAction&) const;
 	};
 	#endif
+}

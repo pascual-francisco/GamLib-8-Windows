@@ -19,6 +19,10 @@ TextureBuffer::~TextureBuffer()
 	
 }
 
+void buffer::TextureBuffer::init(GLuint count, GLintptr size, const void* data, GLuint format, GLuint unit)
+{
+}
+
 void TextureBuffer::update(GLintptr offset, GLintptr size, const void *data)
 {
 	glBufferSubData(GL_TEXTURE_BUFFER, offset, size, data);

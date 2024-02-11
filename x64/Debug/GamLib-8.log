@@ -1,72 +1,751 @@
 ﻿  Animation.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   AnimationDelegate.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   Camera.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   dllmain.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   Entity.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
-  FeedbackBuffer.cpp
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   FrameBuffer.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   Game.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   IndexBuffer.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   KeyFrame.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   KeyFrameDelegate.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   Mechanics.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
-  ObjectManager.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   PackBuffer.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   PixelBuffer.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   RenderBuffer.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   Renderer.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   Scene.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   Shader.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   Sprite.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
+  SpriteManager.cpp
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
+  stdafx.cpp
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   Generating Code...
   Compiling...
-  stdafx.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
   TextureBuffer.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   TextureManager.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   TileMapManager.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   Timer.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   TimerDelegate.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   Track.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   TrackAction.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   TrackDelegate.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   Transformation.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   UniformBuffer.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   UnpackBuffer.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   VertexArray.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   VertexBuffer.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   VertexBufferLayout.cpp
-C:\Users\pascu\source\repos\GamLib-8\stdafx.h(46,10): fatal  error C1083: Cannot open include file: 'SoundDelegate.h': No such file or directory
+C:\Users\pascu\source\repos\GamLib-8\TimerDelegate.h(4,11): error C2757: 'time': a symbol with this name already exists and therefore this name cannot be used as a namespace name
+C:\Users\pascu\source\repos\GamLib-8\Track.h(9,23): error C2504: 'object': base class undefined
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(12,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): error C2259: 'animation::KeyFrame': cannot instantiate abstract class
+C:\Users\pascu\source\repos\GamLib-8\KeyFrame.h(8,8): message : see declaration of 'animation::KeyFrame'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : due to following members:
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::init(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(18,38): message : see declaration of 'object::Object::init'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::update(void)': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(19,38): message : see declaration of 'object::Object::update'
+C:\Users\pascu\source\repos\GamLib-8\Track.h(13,15): message : 'void object::Object::print(void) const': is abstract
+C:\Users\pascu\source\repos\GamLib-8\Object.h(20,38): message : see declaration of 'object::Object::print'
+C:\Users\pascu\source\repos\GamLib-8\TextureManager.h(21,1): fatal  error C1021: invalid preprocessor command 'end'
   Generating Code...

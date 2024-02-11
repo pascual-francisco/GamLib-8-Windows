@@ -1,22 +1,25 @@
-#pragma once
+
 #include "stdafx.h"
 
-#ifndef FRAMEBUFFER_H
-#define	FRAMEBUFFER_H
-
-class FrameBuffer : public BufferObject
+namespace buffer
 {
-	private:
 
-	public:
+	#ifndef FRAMEBUFFER_H
+	#define	FRAMEBUFFER_H
+
+	class FrameBuffer : public BufferObject
+	{
+		private:
+
+		public:
 		GLuint attachmentPoints[18];
 		string frameBufferStatus;
 
-		__declspec(dllexport) 	  FrameBuffer(GLuint target);
-		__declspec(dllexport) ~FrameBuffer();
+		__declspec(dllexport) 		FrameBuffer(GLuint target);
+		__declspec(dllexport)		~FrameBuffer();
 
 
-		__declspec(dllexport) void update(GLintptr offset, GLintptr size, const void *data);
+		__declspec(dllexport) void update(GLintptr offset, GLintptr size, const void* data);
 		__declspec(dllexport) void attach();
 		__declspec(dllexport) void attachRenderBuffer(RenderBuffer* buffer);
 		__declspec(dllexport) void attachColor(GLuint point, GLuint buffer);
@@ -31,8 +34,8 @@ class FrameBuffer : public BufferObject
 		__declspec(dllexport) void detach();
 		__declspec(dllexport) void print() const;
 
-};
+	};
 #endif // !FRAMEBUFFER_H
-
+}
 
 

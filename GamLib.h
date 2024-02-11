@@ -43,7 +43,10 @@ Change History:
 ** Version 8.0.0:
 * Added namespaces
 * Added second vertex color 
+* Added normal vertex coordinates
 * Added all objects inherit from base pure class Object
-
-
+* Object Manager class becomes Sprite Manager Class
+* Added Sprite Manager Class
+* Deleted Object Manager Class
+* 
 */

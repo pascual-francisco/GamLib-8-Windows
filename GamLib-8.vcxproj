@@ -261,7 +261,6 @@
     <ClInclude Include="KeyFrameDelegate.h" />
     <ClInclude Include="Mechanics.h" />
     <ClInclude Include="Object.h" />
-    <ClInclude Include="ObjectManager.h" />
     <ClInclude Include="PackBuffer.h" />
     <ClInclude Include="PixelBuffer.h" />
     <ClInclude Include="RenderBuffer.h" />
@@ -270,6 +269,7 @@
     <ClInclude Include="Shader.h" />
     <ClInclude Include="Sprite.h" />
     <ClInclude Include="SpriteDelegate.h" />
+    <ClInclude Include="SpriteManager.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="TextureBuffer.h" />
     <ClInclude Include="TextureManager.h" />
@@ -299,7 +299,7 @@
     <ClCompile Include="KeyFrame.cpp" />
     <ClCompile Include="KeyFrameDelegate.cpp" />
     <ClCompile Include="Mechanics.cpp" />
-    <ClCompile Include="ObjectManager.cpp" />
+    <ClCompile Include="Object.cpp" />
     <ClCompile Include="PackBuffer.cpp" />
     <ClCompile Include="PixelBuffer.cpp" />
     <ClCompile Include="RenderBuffer.cpp" />
@@ -307,6 +307,7 @@
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="Shader.cpp" />
     <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="SpriteManager.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="TextureBuffer.cpp" />
     <ClCompile Include="TextureManager.cpp" />

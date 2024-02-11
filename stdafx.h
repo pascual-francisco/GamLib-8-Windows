@@ -30,6 +30,9 @@ using namespace std;
 #include <gtc/matrix_transform.hpp>
 using namespace glm;
 
+#include "Object.h"
+using namespace object;
+
 #include "TimerDelegate.h"
 #include "Timer.h"
 
@@ -43,7 +46,7 @@ using namespace glm;
 
 #include "EntityDelegate.h"
 #include "SpriteDelegate.h"
-#include "SoundDelegate.h"
+//#include "SoundDelegate.h"
 
 #include "TextureManager.h"
 #include "Transformation.h"
@@ -51,6 +54,7 @@ using namespace glm;
 #include "FSMState.h"
 #include "Sprite.h"
 #include "Entity.h"
+
 #include "BufferObject.h"
 #include "RenderBuffer.h"
 #include "PixelBuffer.h"
@@ -66,9 +70,15 @@ using namespace glm;
 #include "UniformBuffer.h"
 #include "IndexBuffer.h"
 #include "TileMapManager.h"
-#include "ObjectManager.h"
+#include "SpriteManager.h"
 #include "Camera.h"
 #include "Scene.h"
 #include "Renderer.h"
 #include "Game.h"
-#include "Object.h"
+
+
+using namespace physic;
+using namespace animation;
+using namespace object;
+using namespace render;
+using namespace buffer;

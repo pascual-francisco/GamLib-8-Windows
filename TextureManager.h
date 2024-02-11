@@ -1,18 +1,17 @@
-
 #include "stdafx.h"
 
-#ifndef TEXTUREMANAGER_H
-#define TEXTUREMANAGER_H
-
-class TextureManager
+namespace texture
 {
-	public:
+	#ifndef TEXTUREMANAGER_H
+	#define TEXTUREMANAGER_H
 
+	class TextureManager: public Object
+	{
+		public:
 		__declspec(dllexport) TextureManager();
-
 		__declspec(dllexport) ~TextureManager();
-	
-	__declspec(dllexport) 	void initTexture(GLuint name, string path, GLuint quantity, GLuint target);
-	  
-};
+		__declspec(dllexport) 	void initTexture(GLuint name, string path, GLuint quantity, GLuint target);
+
+	};
 #endif // !TEXTUREMANAGER_H
+}

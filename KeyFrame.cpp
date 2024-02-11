@@ -1,13 +1,15 @@
 #include "stdafx.h"
 
-	KeyFrame::KeyFrame(float keyTime, float keyValue,  int easingF,  int easingR, bool actionActive,  int actionState,  int fireDirection, float time,  int key)
+namespace animation
+{
+	KeyFrame::KeyFrame(float keyTime, float keyValue, int easingF, int easingR, bool actionActive, int actionState, int fireDirection, float time, int key)
 	{
 		init(keyTime, keyValue, easingF, easingR, actionActive, actionState, fireDirection, time, key);
 	}
 
 	KeyFrame::KeyFrame(const KeyFrame& key)
 	{
-		if(&key!=this)
+		if (&key != this)
 		{
 			time = key.time;
 			value = key.value;
@@ -36,18 +38,18 @@
 	void KeyFrame::reset()
 	{
 		time = 0;
-		value =0.0f;
+		value = 0.0f;
 		easingForward = LINEAR;
 		easingReverse = LINEAR;
 		action.active = false;
 		action.actualState = TrackAction::FORWARD;
 		action.pauseTime = 0;
-		action.pauseCounter = 0;		
+		action.pauseCounter = 0;
 	}
 
 	const KeyFrame& KeyFrame::operator=(const KeyFrame& key)
 	{
-		if(&key!=this)
+		if (&key != this)
 		{
 			easingForward = key.easingForward;
 			easingReverse = key.easingReverse;
@@ -61,15 +63,15 @@
 
 	bool KeyFrame::operator==(const KeyFrame& key) const
 	{
-		if(time == key.time && 
+		if (time == key.time &&
 			value == key.value &&
 			easingForward == key.easingForward &&
 			easingReverse == key.easingReverse &&
-			action == key.action && 
+			action == key.action &&
 			keyDelegate == key.keyDelegate
 			)
 		{
-			return true;	
+			return true;
 		}
 		else
 		{
@@ -78,8 +80,8 @@
 	}
 
 	bool KeyFrame::operator<(const KeyFrame& key) const
-	{	
-		if(time < key.time)
+	{
+		if (time < key.time)
 		{
 			return true;
 		}
@@ -90,8 +92,8 @@
 	}
 
 	bool KeyFrame::operator>(const KeyFrame& key) const
-	{	
-		if(time > key.time)
+	{
+		if (time > key.time)
 		{
 			return true;
 		}
@@ -100,3 +102,4 @@
 			return false;
 		}
 	}
+}
